@@ -19,8 +19,8 @@ jobs:
     name: "Build"
     strategy:
       matrix:
-        java: [ 16 ] # Build on Java 16
-    runs-on: ubuntu-20.04
+        java: [ 16 ] # Build on Java 17
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
 
